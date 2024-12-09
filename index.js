@@ -5,4 +5,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     const targetElement = document.querySelector(targetId);
     targetElement.scrollIntoView({ behavior: 'smooth' });
   });
-});￼Enter
+});
